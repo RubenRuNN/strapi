@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_slug_links",
+  "info": {
+    "displayName": "SlugLink",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

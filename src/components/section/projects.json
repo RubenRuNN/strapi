@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_projects",
+  "info": {
+    "displayName": "projects",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "seeMoreLabel": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}

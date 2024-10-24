@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

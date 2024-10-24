@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_components_navbars",
+  "info": {
+    "displayName": "Navbar",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "displayName": "Link",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.link"
+    },
+    "address": {
+      "displayName": "AddressSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.address-section"
+    },
+    "contactLabel": {
+      "type": "text"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.social-section"
+    }
+  }
+}

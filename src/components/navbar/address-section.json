@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_navbar_address_sections",
+  "info": {
+    "displayName": "AddressSection",
+    "icon": "pinMap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::address.address"
+    }
+  }
+}

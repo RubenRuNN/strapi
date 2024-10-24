@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_navbar_social_sections",
+  "info": {
+    "displayName": "SocialSection",
+    "icon": "thumbUp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "socials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::social.social"
+    }
+  }
+}

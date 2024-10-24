@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "work": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer-group"
+    },
+    "company": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer-group"
+    }
+  }
+}

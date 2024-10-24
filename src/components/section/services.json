@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_section_services",
+  "info": {
+    "displayName": "services",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "services": {
+      "displayName": "ServiceItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.service-item"
+    }
+  }
+}
